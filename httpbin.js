@@ -6,6 +6,6 @@ function sendRequest() {
       document.getElementById("demo").innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET", "http://httpbin.org/get", true);
+  xhttp.open("GET", "https://httpbin.org/get", true);
   xhttp.send();
 }
